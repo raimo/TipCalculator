@@ -21,6 +21,8 @@
 		D7B5B58717F12F6600D45B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B5B56817F12F6600D45B7A /* Foundation.framework */; };
 		D7B5B58F17F12F6600D45B7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B5B58D17F12F6600D45B7A /* InfoPlist.strings */; };
 		D7B5B59217F12F6600D45B7A /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B5B59117F12F6600D45B7A /* TipCalculatorTests.m */; };
+		D7B5B59E17F1300700D45B7A /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B5B59C17F1300700D45B7A /* TipViewController.m */; };
+		D7B5B59F17F1300700D45B7A /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B5B59D17F1300700D45B7A /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D7B5B58E17F12F6600D45B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7B5B59017F12F6600D45B7A /* TipCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipCalculatorTests.h; sourceTree = "<group>"; };
 		D7B5B59117F12F6600D45B7A /* TipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorTests.m; sourceTree = "<group>"; };
+		D7B5B59B17F1300700D45B7A /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		D7B5B59C17F1300700D45B7A /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		D7B5B59D17F1300700D45B7A /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				D7B5B57517F12F6600D45B7A /* AppDelegate.h */,
 				D7B5B57617F12F6600D45B7A /* AppDelegate.m */,
 				D7B5B56D17F12F6600D45B7A /* Supporting Files */,
+				D7B5B59B17F1300700D45B7A /* TipViewController.h */,
+				D7B5B59C17F1300700D45B7A /* TipViewController.m */,
+				D7B5B59D17F1300700D45B7A /* TipViewController.xib */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				D7B5B57917F12F6600D45B7A /* Default.png in Resources */,
 				D7B5B57B17F12F6600D45B7A /* Default@2x.png in Resources */,
 				D7B5B57D17F12F6600D45B7A /* Default-568h@2x.png in Resources */,
+				D7B5B59F17F1300700D45B7A /* TipViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			files = (
 				D7B5B57317F12F6600D45B7A /* main.m in Sources */,
 				D7B5B57717F12F6600D45B7A /* AppDelegate.m in Sources */,
+				D7B5B59E17F1300700D45B7A /* TipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
